@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  9 00:55:32 2023
-
-@author: Himanshu
-"""
-
 import numpy as np
 import pickle
 import streamlit as st
@@ -12,7 +5,7 @@ import streamlit as st
 
 #loading the saved model
 #loaded_model contains the model which is trained using dataset
-loaded_model = pickle.load(open('./trained_model.sav','rb'))   #rb - reading binary 
+loaded_model = pickle.load(open('trained_model.sav','rb'))   #rb - reading binary 
 
 
 #creating a function 
