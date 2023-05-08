@@ -5,7 +5,7 @@ import streamlit as st
 
 #loading the saved model
 #loaded_model contains the model which is trained using dataset
-loaded_model = pickle.load(open('https://github.com/sreedevareddy/ddos/blob/main/trained_model.sav','rb'))   #rb - reading binary 
+loaded_model = pickle.load(open('trained_model.sav','rb'))   #rb - reading binary 
 
 
 #creating a function 
